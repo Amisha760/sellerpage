@@ -1,0 +1,24 @@
+.nav-btn{
+   
+    background-color:rgb(241, 142, 19);
+    border: none;
+    padding: 9px 24px;
+    border-radius: 29px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+  .navbar{
+    text-align: center;
+    padding: 1%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* optional */
+    z-index: 9999; /* optional */
+  
+}

@@ -1,0 +1,39 @@
+.carosel-container{
+    width: 100%;
+    background-color: darkslategrey;
+    height: 600px;
+    
+}
+.content{
+ margin-left: 100px;
+padding: 2%;
+}
+.content .heading {
+  
+   color: white;
+font-size: 50px;
+   font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.in-slide-content{
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.in-slide-content .left{
+    color: white;
+    font-size: 30px;
+    width: 35%;
+    font-weight: bold;
+}
+.in-slide-content .right{
+
+}
+.line {
+    border: 2px solid black;
+   display: inline-block;
+     width: 100%;
+     height: 4px;
+  }

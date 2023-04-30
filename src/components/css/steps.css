@@ -1,0 +1,73 @@
+.steps{
+    display: block;
+}
+
+.heading h4{
+  
+ font-size: 30px;
+ font-weight: bolder;
+
+}
+.heading p{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+.in-step{
+    display: flex;
+}
+
+
+ .in-step .left {
+   display: flex;
+   width: 30%;
+   flex-wrap: wrap;
+    padding: 5px;
+  
+}
+
+ .in-step .right {
+    
+    width: 100%;
+    padding: 20px;
+  
+    
+    
+}
+
+@media only screen and (max-width: 1008px) {
+    
+    .in-step{
+     display: block;
+    
+    }
+     .in-step .left{
+        width: 70%;
+     } 
+   
+   }
+.frame img{
+    width:100%; 
+    height:500px;
+    overflow:hidden;
+   border: none;
+}
+.frame{
+    width: auto;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+  
+}
+.everystep{
+    display: block;
+    background: linear-gradient(#A5D3E4, #188DF4);
+    margin-top: 20px;
+    width: 10vw;
+    padding: 7px;
+    height: 45px;
+    border-radius: 40px;
+    font-weight: bold;
+}

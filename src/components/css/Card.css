@@ -1,0 +1,42 @@
+.card {
+   margin-bottom: 100px;
+   
+  transition: transform 0.5s;
+   padding: 8%;
+   height: 300px;
+    background-color: white;
+    border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) ;;
+  }
+  .card:hover{
+    transform: translate(0, -5px);
+  }
+  .card-img-top {
+    width: 64px;
+    height: auto;
+  }
+  .heading-why{
+    margin: 90px;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+ .card-title{
+    font-weight: bolder;
+    font-size: 25px;
+ }
+  .cards .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+@media only screen and (max-width: 800px) {
+    
+   .cards .container{
+   flex-direction: column;
+   height: auto;
+   }
+   
+    
+   }
